@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B0B0D">
+
+  <title>After the Credits | A Journal for Film Lovers</title>
+  <meta name="description" content="A cinematic journal for discovering unforgettable films, hidden gems, and stories that stay with you.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+
+  <link href="./styles.css" rel="stylesheet">
+</head>
+
+<body class="bg-cinema-bg font-sans text-white antialiased">
+
+  <!-- HEADER -->
+  <header class="border-b border-cinema-line bg-cinema-bg">
+    <nav class="mx-auto flex max-w-7xl items-center justify-between gap-4 px-5 py-5 sm:px-8 lg:px-12" aria-label="Main navigation">
+
+      <a href="#home" class="shrink-0 text-lg font-bold tracking-tight sm:text-xl">
+        AFTER<span class="text-cinema-accent">/</span>THE CREDITS
+      </a>
+
+      <div class="hidden items-center gap-7 text-sm text-cinema-muted md:flex">
+        <a href="#featured" class="transition hover:text-cinema-accent">Featured</a>
+        <a href="#collection" class="transition hover:text-cinema-accent">The collection</a>
+        <a href="#moods" class="transition hover:text-cinema-accent">By mood</a>
+      </div>
+
+      <a href="#collection" class="rounded-full border border-cinema-line px-4 py-2.5 text-xs font-semibold transition hover:border-cinema-accent hover:text-cinema-accent sm:px-5 sm:text-sm">
+        Find your next film ↗
+      </a>
+
+    </nav>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO -->
+    <section id="featured" class="mx-auto max-w-7xl px-5 pb-16 pt-12 sm:px-8 sm:pb-20 sm:pt-16 lg:px-12">
+
+      <div class="mb-6 flex items-center gap-3 text-[10px] font-semibold uppercase tracking-[0.28em] text-cinema-accent sm:text-xs">
+        <span class="h-px w-8 bg-cinema-accent"></span>
+        For the love of the frame
+      </div>
+
+      <div class="relative isolate overflow-hidden rounded-2xl bg-cinema-panel sm:rounded-3xl">
+
+        <img
+          src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=2000&q=85"
+          alt="Rows of seats in a dark movie theatre"
+          class="absolute inset-0 h-full w-full object-cover opacity-40"
+        >
+
+        <div class="absolute inset-0 bg-gradient-to-r from-black via-black/80 to-black/10"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-black/10"></div>
+
+        <div class="relative z-10 flex min-h-[470px] items-end px-6 py-10 sm:min-h-[540px] sm:px-12 sm:py-14 lg:min-h-[600px] lg:px-16 lg:py-16">
+
+          <div class="max-w-2xl">
+
+            <p class="mb-5 text-xs font-semibold uppercase tracking-[0.22em] text-cinema-accent">
+              A little less scrolling. A little more cinema.
+            </p>
+
+            <h1 class="font-display text-5xl font-medium leading-[1.08] tracking-tight sm:text-6xl lg:text-7xl">
+              Some stories<br>
+              <span class="italic text-cinema-accent">never really end.</span>
+            </h1>
+
+            <p class="mt-6 max-w-lg text-sm leading-7 text-white/75 sm:text-base sm:leading-8">
+              For the films that leave you staring at the credits.
+              Discover unforgettable stories, overlooked gems, and
+              the kind of cinema that stays with you long after the screen goes dark.
+            </p>
+
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+              <a href="#collection" class="rounded-full bg-cinema-accent px-6 py-3.5 text-sm font-bold text-black transition hover:bg-white">
+                Explore the collection ↗
+              </a>
+
+              <a href="#about" class="text-sm font-medium text-white/80 transition hover:text-cinema-accent">
+                Our point of view
+              </a>
+            </div>
+
+            <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 border-t border-white/20 pt-5 text-xs text-white/60 sm:text-sm">
+              <span>Independent perspectives</span>
+              <span class="hidden h-1 w-1 rounded-full bg-cinema-accent sm:block"></span>
+              <span>Stories worth staying for</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLLECTION -->
+    <section id="collection" class="border-t border-cinema-line bg-cinema-bg py-16 sm:py-20">
+
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+
+        <div class="flex flex-col justify-between gap-5 sm:flex-row sm:items-end">
+
+          <div>
+            <p class="mb-3 text-xs font-semibold uppercase tracking-[0.24em] text-cinema-accent">
+              The watchlist
+            </p>
+
+            <h2 class="font-display text-4xl font-medium tracking-tight sm:text-5xl">
+              Films that <span class="italic text-cinema-accent">stay.</span>
+            </h2>
+          </div>
+
+          <p class="max-w-sm text-sm leading-7 text-cinema-muted">
+            Different worlds, different lives, one unforgettable frame at a time.
+            Start wherever your curiosity takes you.
+          </p>
+
+        </div>
+
+        <!-- Responsive grid: 1 / 2 / 3 columns -->
+        <div class="mt-10 grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
+
+          <!-- FILM 1 -->
+          <article class="group min-w-0">
+            <div class="relative overflow-hidden rounded-xl bg-cinema-panel">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlJgC_DONvuqqnNJXJ4v8gfOr8j7RI_oyH-GQYUj8dHA&s=10"
+                alt="A mysterious forest landscape"
+                loading="lazy"
+                class="h-72 w-full rounded-xl object-cover object-center transition duration-500 group-hover:scale-105 sm:h-80"
+              >
+              <span class="absolute left-4 top-4 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-white backdrop-blur-sm">
+                Beutifully human
+              </span>
+            </div>
+
+            <div class="pt-5">
+              <p class="text-xs uppercase tracking-[0.18em] text-cinema-accent">
+                Drama · Hope · Friendship
+              </p>
+              <h3 class="mt-2 font-display text-2xl font-medium">
+                The Shawshank Redemption (1994)
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-cinema-muted">
+               Wrongfully imprisoned, Andy Dufresne holds on to hope and 
+               dignity while building an unexpected friendship inside 
+               Shawshank prison.
+              </p>
+              <a href="#moods" class="mt-4 inline-block text-sm font-semibold text-white transition hover:text-cinema-accent">
+                Explore this movie →
+              </a>
+            </div>
+          </article>
+
+          <!-- FILM 2 -->
+          <article class="group min-w-0">
+            <div class="relative overflow-hidden rounded-xl bg-cinema-panel">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Zc_4ZdyH6ht2scOejARNAE7OgW4Tv3e-1n3Lr7BQ4w&s=10"
+                alt="Golden sunlight spilling over a quiet landscape"
+                loading="lazy"
+               class="h-72 w-full rounded-xl object-cover object-center transition duration-500 group-hover:scale-105 sm:h-80"
+              >
+              <span class="absolute left-4 top-4 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-white backdrop-blur-sm">
+                Quietly beautiful
+              </span>
+            </div>
+
+            <div class="pt-5">
+              <p class="text-xs uppercase tracking-[0.18em] text-cinema-accent">
+               Drama · Coming-of-Age
+              </p>
+              <h3 class="mt-2 font-display text-2xl font-medium">
+                Good Will Hunting (1997)
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-cinema-muted">
+                A gifted young janitor must confront his painful past and his fear
+                 of change before he can discover what he truly wants from life.
+              </p>
+              <a href="#moods" class="mt-4 inline-block text-sm font-semibold text-white transition hover:text-cinema-accent">
+                Explore this movie →
+              </a>
+            </div>
+          </article>
+
+          <!-- FILM 3 -->
+          <article class="group min-w-0">
+            <div class="relative overflow-hidden rounded-xl bg-cinema-panel">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyCj3Hf7jfAIi0QAsFtDb94H1xkefC3yEN_jMzwoBeAg&s=10"
+                alt="A dramatic night sky filled with stars"
+                loading="lazy"
+                class="h-72 w-full rounded-xl object-cover object-center transition duration-500 group-hover:scale-105 sm:h-80"
+              >
+              <span class="absolute left-4 top-4 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-white backdrop-blur-sm">
+                After hours
+              </span>
+            </div>
+
+            <div class="pt-5">
+              <p class="text-xs uppercase tracking-[0.18em] text-cinema-accent">
+                Action · Crime · Superhero Thriller
+              </p>
+              <h3 class="mt-2 font-display text-2xl font-medium">
+               The Dark Knight (2008)
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-cinema-muted">
+                Batman faces the Joker, a ruthless force of chaos who pushes Gotham's people
+                 and its protectors to their moral limits.
+              </p>
+              <a href="#moods" class="mt-4 inline-block text-sm font-semibold text-white transition hover:text-cinema-accent">
+                Explore this movie →
+              </a>
+            </div>
+          </article>
+
+          <!-- FILM 4 -->
+          <article class="group min-w-0">
+            <div class="relative overflow-hidden rounded-xl bg-cinema-panel">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG1ED34iv_8ZK9EuNDoUZBUp_ynBdmN9I9AUIZk4mf3g&s=10"
+                alt="A solitary cabin beside a peaceful mountain lake"
+                loading="lazy"
+                class="h-72 w-full rounded-xl object-cover object-center transition duration-500 group-hover:scale-105 sm:h-80"
+              >
+              <span class="absolute left-4 top-4 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-white backdrop-blur-sm">
+                Humanity in darkness
+              </span>
+            </div>
+
+            <div class="pt-5">
+              <p class="text-xs uppercase tracking-[0.18em] text-cinema-accent">
+                Historical Drama · War
+              </p>
+              <h3 class="mt-2 font-display text-2xl font-medium">
+               Schindler's List (1993)
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-cinema-muted">
+               During the Holocaust, German industrialist Oskar Schindler risks everything to save Jewish lives,
+               revealing humanity amid unimaginable cruelty.
+              </p>
+              <a href="#moods" class="mt-4 inline-block text-sm font-semibold text-white transition hover:text-cinema-accent">
+                Explore this movie →
+              </a>
+            </div>
+          </article>
+
+          <!-- FILM 5 -->
+          <article class="group min-w-0">
+            <div class="relative overflow-hidden rounded-xl bg-cinema-panel">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBR55DpejPsd_eD-LTGWBmLRmh1oYExG-8ZLwC-Vh6Lg&s=10"
+                alt="Ocean waves rolling towards the shore"
+                loading="lazy"
+                class="h-72 w-full rounded-xl object-cover object-center transition duration-500 group-hover:scale-105 sm:h-80"
+              >
+              <span class="absolute left-4 top-4 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-white backdrop-blur-sm">
+               The Mind-Benders
+              </span>
+            </div>
+
+            <div class="pt-5">
+              <p class="text-xs uppercase tracking-[0.18em] text-cinema-accent">
+                Sci-Fi · Adventure · Drama
+              </p>
+              <h3 class="mt-2 font-display text-2xl font-medium">
+                Interstellar (2014)
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-cinema-muted">
+                As Earth faces an uncertain future, a pilot travels beyond the stars 
+                on a mission that tests the limits of time, sacrifice, and love.
+              </p>
+              <a href="#moods" class="mt-4 inline-block text-sm font-semibold text-white transition hover:text-cinema-accent">
+                Explore this movie →
+              </a>
+            </div>
+          </article>
+
+          <!-- FILM 6 -->
+          <article class="group min-w-0">
+            <div class="relative overflow-hidden rounded-xl bg-cinema-panel">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwWwCuEgXADvhRRbCmC7ZlWYEcrw7zzN0L2MhQdg0FKw&s=10"
+                alt="A winding path through a dramatic natural landscape"
+                loading="lazy"
+                class="h-72 w-full rounded-xl object-cover object-center transition duration-500 group-hover:scale-105 sm:h-80"
+              >
+              <span class="absolute left-4 top-4 rounded-full border border-white/20 bg-black/60 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-widest text-white backdrop-blur-sm">
+                The unexpected
+              </span>
+            </div>
+
+            <div class="pt-5">
+              <p class="text-xs uppercase tracking-[0.18em] text-cinema-accent">
+                Psychological Thriller · Mystery
+              </p>
+              <h3 class="mt-2 font-display text-2xl font-medium">
+                Shutter Island (2010)
+              </h3>
+              <p class="mt-3 text-sm leading-7 text-cinema-muted">
+                A U.S. marshal investigates a disappearance at a remote psychiatric hospital,
+                where unsettling clues make reality harder to trust.
+              </p>
+              <a href="#moods" class="mt-4 inline-block text-sm font-semibold text-white transition hover:text-cinema-accent">
+                Explore this movie →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- MOOD SECTION -->
+    <section id="moods" class="border-y border-cinema-line bg-cinema-panel py-16 sm:py-20">
+      <div class="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
+
+        <p class="text-xs font-semibold uppercase tracking-[0.24em] text-cinema-accent">
+          Pick your atmosphere
+        </p>
+
+        <h2 class="mt-4 max-w-2xl font-display text-4xl font-medium leading-tight sm:text-5xl">
+          Tell us how you feel.<br>
+          <span class="italic text-cinema-muted">We'll meet you there.</span>
+        </h2>
+
+        <div class="mt-9 flex flex-wrap gap-3">
+          <a href="#collection" class="rounded-full border border-cinema-line px-5 py-3 text-sm transition hover:border-cinema-accent hover:text-cinema-accent">
+            Mind-bending
+          </a>
+          <a href="#collection" class="rounded-full border border-cinema-line px-5 py-3 text-sm transition hover:border-cinema-accent hover:text-cinema-accent">
+            A little heartbroken
+          </a>
+          <a href="#collection" class="rounded-full border border-cinema-line px-5 py-3 text-sm transition hover:border-cinema-accent hover:text-cinema-accent">
+            Slow & thoughtful
+          </a>
+          <a href="#collection" class="rounded-full border border-cinema-line px-5 py-3 text-sm transition hover:border-cinema-accent hover:text-cinema-accent">
+            Edge of your seat
+          </a>
+          <a href="#collection" class="rounded-full border border-cinema-line px-5 py-3 text-sm transition hover:border-cinema-accent hover:text-cinema-accent">
+            Comfort watch
+          </a>
+        </div>
+
+        <p class="mt-6 text-xs leading-6 text-cinema-muted">
+          These are visual category links for this static milestone.
+          Interactive filtering can be added in a later version.
+        </p>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="mx-auto max-w-7xl px-5 py-20 sm:px-8 sm:py-24 lg:px-12">
+      <div class="grid gap-8 lg:grid-cols-2 lg:items-center">
+
+        <div>
+          <p class="text-xs font-semibold uppercase tracking-[0.24em] text-cinema-accent">
+            A note from the editor
+          </p>
+          <h2 class="mt-4 max-w-xl font-display text-4xl font-medium leading-tight sm:text-5xl">
+            The best part of a film is sometimes <span class="italic text-cinema-accent">what stays.</span>
+          </h2>
+        </div>
+
+        <p class="max-w-xl text-sm leading-8 text-cinema-muted sm:text-base">
+          After the Credits is a small corner of the internet for people
+          who love stories. The quiet endings, the unexpected turns,
+          the unforgettable characters, and the conversations that continue
+          long after the screen goes dark. No endless rankings. Just a
+          little space to find your next favourite film.
+        </p>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-cinema-line">
+    <div class="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-8 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
+
+      <a href="#home" class="text-sm font-bold tracking-tight">
+        AFTER<span class="text-cinema-accent">/</span>THE CREDITS
+      </a>
+
+      <p class="text-xs leading-6 text-cinema-muted">
+        Made for the love of stories, frames, and everything in between.
+      </p>
+
+      <a href="#home" class="text-xs font-semibold text-cinema-accent transition hover:text-white">
+        Back to the beginning ↑
+      </a>
+
+    </div>
+  </footer>
+
+</body>
+</html>
